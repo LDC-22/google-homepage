@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+<style>
+    html {
+        font-family: 'Roboto', sans-serif;
+        color: rgb(48, 48, 48);
+    }
+
+    a:link {
+        color: rgb(48, 48, 48);
+        text-decoration: none;
+
+    }
+
+    a:visited {
+        color: rgb(48, 48, 48);
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    header {
+        display: flex;
+        margin-right: 20px;
+        margin-left: 20px;
+        align-items: baseline;
+    }
+
+    #element-left {
+        width: 50%;
+        height: 50px;
+    }
+    #element-right {
+        width: 50%;
+        text-align: right;
+        height: 50px;
+        margin-right: 50px;
+    }
+    ul#list-left li {
+        display: inline;
+        margin-left: 10px;
+    }
+
+    ul#list-right li {
+        display: inline;
+        margin-left: 10px;
+    }
+
+
+    #menu-button {
+        position: relative;
+        top: 9px;
+    }
+
+    #accedi {
+        background-color: rgb(160, 158, 241);
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        border-style: solid;
+        border-color: rgb(118, 118, 209);
+        border-width: 1px;
+    }
+
+    #center-body {
+        align-items: center;
+        height: 73vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #gugol-logo {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10vh;
+        display: block;
+        height: 30%;
+    }
+
+    #search-bar {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 50px;
+        height: 40px;
+        border-color: rgb(207, 207, 207);
+        border-width: 1px;
+        border-style: solid;
+        background: url(img/frog-logo.png) no-repeat scroll 7px 7px;
+        opacity: 50%;
+        padding-left: 50px;
+    }
+
+    #search-buttons {
+        display: flex;
+        justify-content: center;
+    }
+    .search-buttons {
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 40px;
+        background-color: rgb(238, 238, 238);
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgb(238, 238, 238);
+    }
+    #language {
+        text-align: center;
+    }
+
+    ul#footer-list li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    footer {
+        position: fixed;
+        width: 100%;
+    }
+
+    .foot {
+        background-color: rgb(223, 223, 223);
+        border-style: solid;
+        border-color: rgb(212, 212, 212);
+        border-width: 1px;
+        padding-left: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 50px;
+    }
+
+</style>
+    </head>
+    <body>
+        <header>
+            <div id="element-left">
+        <ul id="list-left" style="padding-left: 0px;">
+            <li>Chi siamo</li>
+            <li>google store</li>
+        </ul>
+            </div>
+            <div id="element-right" style="margin-right: 0px;">
+        <ul id="list-right">
+            <li>gmail</li>
+            <li>immagini</li>
+            <li></li><img id="menu-button" src="img/hiclipart.com.png" alt="menu button">
+            <li></li><button id="accedi">accedi</button>
+        </ul>
+            </div>
+        </header>
+        <div id="center-body">
+            <img id="gugol-logo" src="img/gugol-logo.png" alt="Gugol logo">
+            <input type="text" name="search-bar" id="search-bar">
+            <div id="search-buttons">
+                <button class="search-buttons"><a href="https://www.google.com/search?q=frogs&tbm=isch&ved=2ahUKEwjB36O1m7vpAhXP0qQKHZiKCxAQ2-cCegQIABAA&oq=frogs&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6AggpOgQIABBDUNHZN1jy3jdg3eI3aABwAHgAgAHDAYgB-QaSAQMwLjWYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ei=XljBXsG4Is-lkwWYla6AAQ&bih=812&biw=1848&client=ubuntu&hs=Rw3">Cerca con Gugol</a></button>
+                <button class="search-buttons"><a href="https://www.google.com/search?q=peppe+fetish&client=ubuntu&hs=Rw3&channel=fs&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjQ08Gzm7vpAhVNAxAIHeIpDvIQ_AUoAXoECAsQAw&biw=1848&bih=812">Mi sento Sfortunato</a></button>
+            </div>
+            <p id="language">Google offerto in <a href="https://www.shutterstock.com/image-photo/englishman-pipe-600730373" target="_blank" style="text-decoration: underline; color: darkblue;">English</a></p>
+        </div>
+        <footer>
+            <div class="foot">
+                <p>Italia</p>
+            </div>
+            <div class="foot">
+                <ul id="footer-list" style="padding-left: 0px;">
+                    <li>Pubblicità</li>
+                    <li>Soluzioni Aziendali</li>
+                    <li>Come funziona la ricerca</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</HTML>
